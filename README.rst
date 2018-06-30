@@ -1,18 +1,3 @@
-Hanhan's Version - I have an Easier Method
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. code-block:: python
-
-    >>> ua_string = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36'
-    >>> import re
-    >>> lst = [elem.strip() for elem in re.split('[()]', ua_str)]
-    >>> lst
-    >>> ['Mozilla/5.0', 
-        'Macintosh; Intel Mac OS X 10_9_4', 
-        'AppleWebKit/537.36 ', 
-        'KHTML, like Gecko', 
-        'Chrome/41.0.2272.104 Safari/537.36']
-
 uap-python
 ==========
 
